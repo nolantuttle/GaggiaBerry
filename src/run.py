@@ -22,7 +22,7 @@ GPIO.output(RELAY_PIN, GPIO.LOW)  # start OFF
 
 def run_gui():
     screen = tk.Tk()
-    screen.title("Nolan's PID Control")
+    screen.title("PID Control")
     # Get screen width and height
     screen_width = screen.winfo_screenwidth()
     screen_height = screen.winfo_screenheight()

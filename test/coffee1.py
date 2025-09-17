@@ -35,7 +35,7 @@ try:
             GPIO.output(RELAY_PIN, not current)
             print("Relay ON" if not current else "Relay OFF")
 
-        time.sleep(1)  # adjust reading frequency
+        time.sleep(1)
 
 except KeyboardInterrupt:
     print("\nExiting...")
