@@ -12,5 +12,8 @@ The software is written in Python and runs as a systemd service. It uses threads
 
 The goal is to eventually make a lightweight, customizable controller for the Gaggia without relying on commercial PID kits.
 
-
+Version 1.0:
 ![IMG_2595](https://github.com/user-attachments/assets/32ecdfc1-d955-4c0f-8462-a210275c9c8b)
+
+Version 2.0 (3D-printed custom housing in-progress);
+<img width="1179" height="580" alt="GaggiaBerry" src="https://github.com/user-attachments/assets/222dbb62-b0a8-45ba-add6-fb214f338a9b" />
