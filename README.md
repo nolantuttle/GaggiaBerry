@@ -6,9 +6,9 @@ The software is written in Python and runs as a systemd service. It uses threads
 
 - Continuous thermocouple temperature readings
 
-- Relay control logic (simple threshold switching for now)
+- Relay control via Raspberry Pi 5 GPIO
 
-- A small Tkinter GUI that shows the current temperature and status on an HDMI-connected display
+- 16x2 LCD display and improved temperature stability over version 1.0 (<10 degree F overshoot)
 
 The goal is to eventually make a lightweight, customizable controller for the Gaggia without relying on commercial PID kits.
 
