@@ -1,19 +1,29 @@
-This is my project for adding PID-style control to a Gaggia Classic Pro espresso machine using a Raspberry Pi Zero 2 WH. The Pi runs a Python script that reads boiler temperature from a K-type thermocouple (via a MAX31855 module) and switches the heating element through a solid-state relay.
+This is my little tinkering project with the Gaggia Classic Pro to add a PID control system for the boiler control using Arduino and microcontrollers. The goal is to improve thermal stability over the stock boiler through constant switching of a solid state relay while being minimally invasive to stock hardware.
 
-The setup replaces the stock brew thermostat but keeps the safety cutoff thermostat in place. The Pi reads temperature in real time, applies an offset (since the probe is mounted externally on the boiler), and toggles the relay to keep the machine at a stable target range.
+It currently runs on a Raspberry Pi Zero 2 WH for easy revisions and simplicity, next release in v2.0 will feature an ESP-type microcontroller with a fast control loop and precise PID control through a PID Arduino library. 
 
-The software is written in Python and runs as a systemd service. It uses threads for:
+The system is housed in a custom 3D-printed enclosure that friction-fits onto the stock water tank lid, requiring zero screws or drilling on the original machine. The enclosure features a filleted space for a 16x2 LCD display that communicates over I2C to display relay state and boiler temperature.
 
-- Continuous thermocouple temperature readings
+Current Features (v1.0)
+- Software-controlled boiler temperature regulation
 
-- Relay control via Raspberry Pi 5 GPIO
+- Raspberry Pi Zero 2 WH–based controller for rapid development
 
-- 16x2 LCD display and improved temperature stability over version 1.0 (<10 degree F overshoot)
+- Open source 3D-printed enclosure with friction fit on OEM tank lid
 
-The goal is to eventually make a lightweight, customizable controller for the Gaggia without relying on commercial PID kits.
+- Non-destructive, reversible installation
 
-Version 1.0:
-![IMG_2595](https://github.com/user-attachments/assets/32ecdfc1-d955-4c0f-8462-a210275c9c8b)
+- Modular design to support future controller swaps
 
-Version 2.0 (3D-printed custom housing in-progress);
-<img width="1179" height="580" alt="GaggiaBerry" src="https://github.com/user-attachments/assets/222dbb62-b0a8-45ba-add6-fb214f338a9b" />
+Repository Contents:
+- /images: Showcases the installed project
+  
+- /src: All compiled/runnable files for control loop
+  
+- /test: Testing files to verify boiler switching functionality
+
+Project Showcase:
+
+![GaggiaBerry2](https://github.com/user-attachments/assets/041621d6-5ff7-453e-87d3-0def705909a6)
+
+![GaggiaBerry1](https://github.com/user-attachments/assets/5d1df92b-b439-4863-82a8-d794bf1eb619)
