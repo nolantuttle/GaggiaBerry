@@ -31,11 +31,11 @@ The Gaggia Classic Pro has many open-source PID mods and plenty of off-the-shelf
 - Modular design to support future controller swaps
 
 # Repository Contents:
-- /images: Showcases the installed project
-  
-- /src: All compiled/runnable files for control loop
-  
-- /test: Testing files to verify boiler switching functionality
+
+    /images: Showcases the installed project
+    
+    /Arduino: All Arduino C++ files
+
 
 # Project Showcase:
 
