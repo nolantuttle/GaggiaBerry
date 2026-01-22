@@ -3,3 +3,6 @@
 
 #FlashPrint printing file
 *.fpp
+
+#KiCad schematics
+GaggiettoKiCad/
