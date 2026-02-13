@@ -5,6 +5,10 @@ It currently runs on using a Teensy 4.0 600 MHz clock microcontroller (yes, this
 
 The Gaggia Classic Pro has many open-source PID mods and plenty of off-the-shelf kits, but I wanted to create my own take on the mod and learn as much as I can about Arduino, PID control, thermal inertia and 3D printing from doing it myself.
 
+# Electrical Schematic
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/33f99f6c-d001-4b36-a9e4-b4cc6e0645ed" />
+
+
 # Current Release Features (v2.0)
 
 - Adaptive PID boiler temperature controller
