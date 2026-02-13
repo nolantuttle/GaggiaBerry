@@ -6,7 +6,7 @@ It currently runs on using a Teensy 4.0 600 MHz clock microcontroller (yes, this
 The Gaggia Classic Pro has many open-source PID mods and plenty of off-the-shelf kits, but I wanted to create my own take on the mod and learn as much as I can about Arduino, PID control, thermal inertia and 3D printing from doing it myself.
 
 # Electrical Schematic
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/33f99f6c-d001-4b36-a9e4-b4cc6e0645ed" />
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/6106e972-beaf-4b9a-ba1f-e3d61d97681c" />
 
 
 # Current Release Features (v2.0)
@@ -34,6 +34,7 @@ The Gaggia Classic Pro has many open-source PID mods and plenty of off-the-shelf
 
 - Modular design to support future controller swaps
 
+
 # Repository Contents:
 
     /images: Showcases the installed project
@@ -42,7 +43,5 @@ The Gaggia Classic Pro has many open-source PID mods and plenty of off-the-shelf
 
 
 # Project Showcase:
+![Gaggietto](https://github.com/user-attachments/assets/e1b368ad-69ce-4f7b-a92a-b4f54d063287)
 
-![GaggiaBerry2](https://github.com/user-attachments/assets/041621d6-5ff7-453e-87d3-0def705909a6)
-
-![GaggiaBerry1](https://github.com/user-attachments/assets/5d1df92b-b439-4863-82a8-d794bf1eb619)
